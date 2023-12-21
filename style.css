@@ -182,3 +182,14 @@ main {
     margin-top: 25px;
     background-color: var(--Azul-SIBS);
 }
+
+/* EFEITOS */
+
+.show {
+    transition: 1s;
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
