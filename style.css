@@ -187,9 +187,12 @@ main {
 
 .show {
     transition: 1s;
-    opacity: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .hide {
-    opacity: 0;
+    transition: 1s;
+    display: none;
 }
+
