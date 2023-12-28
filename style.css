@@ -196,3 +196,36 @@ main {
     display: none;
 }
 
+/* MEDIA-QUERY'S */
+
+@media screen and (max-width: 420px) and (min-width: 0px) {
+
+    #instagram {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255, 0.08);
+    }
+    
+    #youtube {
+        display: flex;
+        align-items: center;
+        padding: 22px 13px;
+        border-radius: 8px;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255, 0.08);
+    }
+    
+    #facebook {
+        display: flex;
+        align-items: center;
+        padding: 20px 25px;
+        border-radius: 8px;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255, 0.08);
+    }
+    
+
+}
